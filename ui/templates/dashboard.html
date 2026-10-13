@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CenterAlign - Operator Command Center</title>
+    <link rel="stylesheet" href="/static/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body data-run-id="{{ run_id }}">
+    <header>
+        <div class="brand-title">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            CenterAlign Autonomous Operator Control
+        </div>
+        <div class="run-selector">
+            <label for="run-select" style="color: var(--text-secondary); font-size: 0.85rem;">Run:</label>
+            <select id="run-select">
+                <option value="{{ run_id }}">{{ run_id }}</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="grid-container">
+        <!-- Panel 1: Goal & Requirements -->
+        <section class="panel panel-goal">
+            <div class="panel-title">
+                <span>Goal & Policy Directives</span>
+                <span style="font-size: 0.8rem; color: #10b981;">● Active</span>
+            </div>
+            <p id="goal-text" style="font-size: 1rem; font-weight: 500; margin-bottom: 0.75rem;">Loading operator goal...</p>
+            <h5 style="color: var(--text-secondary); margin-bottom: 0.4rem; font-size: 0.85rem;">Expanded Requirements:</h5>
+            <ul id="requirements-list" style="margin-left: 1.25rem; font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+                <li>Loading policy clauses...</li>
+            </ul>
+        </section>
+
+        <!-- Panel 2: Plan Progress -->
+        <section class="panel panel-plan">
+            <div class="panel-title">
+                <span>Execution Plan</span>
+                <span style="font-size: 0.8rem; color: var(--accent-blue);">SSE Synced</span>
+            </div>
+            <div id="plan-steps" class="step-list">
+                <p style="color: var(--text-secondary); font-size: 0.85rem;">Waiting for plan generation...</p>
+            </div>
+        </section>
+
+        <!-- Panel 3: Action Log Feed -->
+        <section class="panel panel-logs">
+            <div class="panel-title">
+                <span>Action & Tool Call Feed</span>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Real-Time</span>
+            </div>
+            <div id="action-log" class="action-log-feed">
+                <!-- Log entries streamed here -->
+            </div>
+        </section>
+
+        <!-- Panel 4: Live Browser Screenshot -->
+        <section class="panel panel-browser">
+            <div class="panel-title">
+                <span>Live Browser Automation State</span>
+                <span style="font-size: 0.8rem; color: var(--text-secondary);">Headless Chromium</span>
+            </div>
+            <div class="screenshot-preview">
+                <img id="live-screenshot-img" src="" alt="Awaiting browser screenshot...">
+            </div>
+        </section>
+
+        <!-- Panel 5: Human Approval Queue -->
+        <section class="panel panel-approval">
+            <div class="panel-title">
+                <span>Human Approval Queue</span>
+                <span style="font-size: 0.8rem; color: #f59e0b;">Policy Gated</span>
+            </div>
+            <div id="approval-queue" class="approval-queue">
+                <p style="color: var(--text-secondary); font-size: 0.85rem;">No approval requests currently pending.</p>
+            </div>
+        </section>
+
+        <!-- Panel 6: Final Verification Report -->
+        <section class="panel panel-report">
+            <div class="panel-title">
+                <span>Verification Report</span>
+                <span style="font-size: 0.8rem; color: #10b981;">Audit Validated</span>
+            </div>
+            <div id="report-view" class="report-content">
+                <p style="color: var(--text-secondary);">Report will appear after verification finishes.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>

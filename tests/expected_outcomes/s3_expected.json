@@ -1,0 +1,35 @@
+[
+  {
+    "claim_id": "1",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 850.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Main Street Cafe",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Filed successfully despite transient 500 / validation error recovery."
+  },
+  {
+    "claim_id": "2",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 1200.0,
+    "expected_category": "Cab",
+    "expected_vendor": "Uber India",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Filed successfully without duplicates despite session expiry."
+  },
+  {
+    "claim_id": "6",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 5500.0,
+    "expected_category": "Lodging",
+    "expected_vendor": "Lemon Tree Hotel",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Filed successfully despite slow page latency."
+  }
+]

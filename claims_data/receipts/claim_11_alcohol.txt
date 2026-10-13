@@ -1,0 +1,17 @@
+ITEMIZED BILL & BAR RECEIPT
+Vendor: Downtown Grill & Bar
+Receipt ID: REC-DGB-20260829
+Date: 2026-08-29
+Server: Kevin | Table: 07
+Customer: Priya Sharma
+
+Order Items:
+1. Grilled Chicken Steak - INR 750.00
+2. Draught Beer Pint (Alcohol beverage) - INR 550.00
+
+Food Total: INR 750.00
+Alcohol Beverages Total: INR 550.00
+VAT & Service Charge: Included
+Grand Total: INR 1,300.00
+Payment Method: Visa ending in 4102
+Policy Notice: Alcohol beverages are strictly non-reimbursable per CenterAlign policy P9.

@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & secrets
+.env
+*.local
+
+# Database files
+*.db
+*.sqlite3
+*.db-journal
+
+# Runtime artifacts and generated reports (keep .gitkeep if present)
+reports/*
+!reports/.gitkeep
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

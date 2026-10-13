@@ -1,0 +1,13 @@
+claim_id,employee,date,category,amount_inr,vendor,receipt_file,notes
+1,Priya Sharma,2026-10-08,Meals,850.00,Main Street Cafe,claim_01_meal.txt,Team working lunch
+2,Priya Sharma,2026-10-03,Cab,1200.00,Uber India,claim_02_cab.txt,Client site visit transit
+3,Priya Sharma,2026-09-28,Meals,2100.00,Royal Spice Bistro,claim_03_meal_overlimit.txt,Solo dinner during late shift
+4,Priya Sharma,2026-09-23,Flight,18500.00,IndiGo Airlines,claim_04_flight_manager_approval.txt,MSG-001
+5,Priya Sharma,2026-09-18,Flight,18500.00,Air India,claim_05_flight_no_approval.txt,Emergency client emergency travel
+6,Priya Sharma,2026-09-13,Lodging,5500.00,Lemon Tree Hotel,claim_06_lodging.txt,1 night hotel in Bengaluru
+7,Priya Sharma,2026-09-08,Software,7200.00,JetBrains,claim_07_software.txt,Annual IDE developer subscription
+8,Priya Sharma,2026-09-03,Hardware,1800.00,Tech Supply Hub,claim_08_missing_receipt.txt,USB-C docking adapters
+9,Priya Sharma,2026-06-15,Office,3000.00,Urban Coworking,claim_09_old_date.txt,Day passes for offsite sprint
+10,Priya Sharma,2026-10-08,Meals,850.00,Main Street Cafe,claim_10_duplicate.txt,Team working lunch
+11,Priya Sharma,2026-08-29,Meals,1300.00,Downtown Grill & Bar,claim_11_alcohol.txt,Dinner with colleagues
+12,Priya Sharma,2026-08-24,Meals,2800.00,The Grand Pavilion,claim_12_ambiguous.txt,Team lunch with client Acme Corp

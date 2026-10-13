@@ -1,0 +1,17 @@
+AIRLINE TAX INVOICE
+Vendor: Air India Ltd
+Receipt ID: REC-AI-20260918
+Ticket No: 098-2194829102
+Date: 2026-09-18
+Passenger: Priya Sharma
+
+Flight Details:
+- AI 502: New Delhi (DEL) -> Mumbai (BOM)
+- AI 806: Mumbai (BOM) -> New Delhi (DEL)
+
+Base Fare: INR 15,800.00
+Airport Taxes & Security: INR 2,700.00
+Total Amount Paid: INR 18,500.00
+Payment Method: Personal Credit Card
+Pre-approval Status: None attached or recorded
+Status: Flown

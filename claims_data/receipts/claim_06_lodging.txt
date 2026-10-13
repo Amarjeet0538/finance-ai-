@@ -1,0 +1,16 @@
+HOTEL GUEST FOLIO & INVOICE
+Vendor: Lemon Tree Hotel
+Receipt ID: REC-LT-20260913
+Folio No: LT-BLR-84920
+Date: 2026-09-13
+Guest: Priya Sharma
+Check-in: 2026-09-13 / Check-out: 2026-09-14 (1 Night)
+
+Room: Deluxe King (Room 412)
+Room Rate (1 Night): INR 5,000.00
+State GST (5%): INR 250.00
+Central GST (5%): INR 250.00
+Total Charges: INR 5,500.00
+Amount Paid: INR 5,500.00
+Payment Mode: Card ending in 4102
+Balance Due: INR 0.00

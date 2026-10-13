@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block title %}Claims List{% endblock %}
+
+{% block content %}
+<div class="card">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+        <h2>Submitted Expense Claims</h2>
+        <a href="/claims/new" class="btn">File New Claim</a>
+    </div>
+
+    {% if claims %}
+        <table id="claims-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Employee</th>
+                    <th>Date</th>
+                    <th>Category</th>
+                    <th>Vendor</th>
+                    <th>Amount</th>
+                    <th>Cost Center</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for claim in claims %}
+                <tr class="claim-row" data-id="{{ claim.id }}">
+                    <td>#{{ claim.id }}</td>
+                    <td>{{ claim.employee }}</td>
+                    <td>{{ claim.date }}</td>
+                    <td>{{ claim.category }}</td>
+                    <td>{{ claim.vendor }}</td>
+                    <td><strong>₹{{ "%.2f"|format(claim.amount_inr) }}</strong></td>
+                    <td>{{ claim.cost_center }}</td>
+                    <td>
+                        <span style="background-color: #1e3a8a; color: #93c5fd; padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">
+                            {{ claim.status }}
+                        </span>
+                    </td>
+                    <td><a href="/claims/{{ claim.id }}" style="color: var(--primary);">View</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p style="color: var(--text-muted); margin-top: 1rem;">No claims submitted yet.</p>
+    {% endif %}
+</div>
+{% endblock %}

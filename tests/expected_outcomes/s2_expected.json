@@ -1,0 +1,134 @@
+[
+  {
+    "claim_id": "1",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 850.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Main Street Cafe",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "ALLOW: within P2 meal allowance limit (₹1,500)."
+  },
+  {
+    "claim_id": "2",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 1200.0,
+    "expected_category": "Cab",
+    "expected_vendor": "Uber India",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "ALLOW: within P3 ground transportation limit (₹3,000)."
+  },
+  {
+    "claim_id": "3",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 2100.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Royal Spice Bistro",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "REJECT: exceeds daily meal limit of ₹1,500 per clause P2."
+  },
+  {
+    "claim_id": "4",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 18500.0,
+    "expected_category": "Flight",
+    "expected_vendor": "IndiGo Airlines",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "NEEDS_APPROVAL (P10): Pre-approval verified in email; approved by human in S2."
+  },
+  {
+    "claim_id": "5",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 18500.0,
+    "expected_category": "Flight",
+    "expected_vendor": "Air India",
+    "expected_status": "DENIED",
+    "expected_receipt_required": true,
+    "reason": "NEEDS_APPROVAL (P4, P10): No pre-approval on file; denied by human in S2."
+  },
+  {
+    "claim_id": "6",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 5500.0,
+    "expected_category": "Lodging",
+    "expected_vendor": "Lemon Tree Hotel",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "ALLOW: under P5 lodging cap (₹6,000) and P10 threshold (₹10,000)."
+  },
+  {
+    "claim_id": "7",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 7200.0,
+    "expected_category": "Software",
+    "expected_vendor": "JetBrains",
+    "expected_status": "DENIED",
+    "expected_receipt_required": true,
+    "reason": "NEEDS_APPROVAL (P6): IT approval required; denied in S2 session."
+  },
+  {
+    "claim_id": "8",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 1800.0,
+    "expected_category": "Hardware",
+    "expected_vendor": "Tech Supply Hub",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "REJECT: missing valid tax receipt per clause P1."
+  },
+  {
+    "claim_id": "9",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 3000.0,
+    "expected_category": "Office",
+    "expected_vendor": "Urban Coworking",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "REJECT: stale date exceeding 90-day window per clause P8."
+  },
+  {
+    "claim_id": "10",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 850.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Main Street Cafe",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "REJECT: duplicate submission of claim 1 per clause P11."
+  },
+  {
+    "claim_id": "11",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 1300.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Downtown Grill & Bar",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "REJECT: non-reimbursable alcohol items detected per clause P9."
+  },
+  {
+    "claim_id": "12",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 2800.0,
+    "expected_category": "Client entertainment",
+    "expected_vendor": "The Grand Pavilion",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "NEEDS_APPROVAL (P7): Client entertainment resolved by LLM; approved by human in S2."
+  }
+]

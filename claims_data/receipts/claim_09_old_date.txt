@@ -1,0 +1,13 @@
+TAX INVOICE
+Vendor: Urban Coworking Spaces
+Receipt ID: REC-UC-20260615
+Date: 2026-06-15
+Customer: Priya Sharma
+
+Services:
+- 3 x Day Pass Flexible Desk Access: INR 2,542.37
+- GST (18%): INR 457.63
+Total Paid: INR 3,000.00
+Payment Method: UPI Transfer
+Status: Settled
+Date of Service: 2026-06-15 (Stale - exceeds 90-day policy window relative to 2026-10-13)

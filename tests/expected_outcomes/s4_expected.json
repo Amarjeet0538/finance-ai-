@@ -1,0 +1,24 @@
+[
+  {
+    "claim_id": "1",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 850.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Main Street Cafe",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Clean claim filed normally."
+  },
+  {
+    "claim_id": "2",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 1200.0,
+    "expected_category": "Cab",
+    "expected_vendor": "Uber India",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Clean claim filed normally."
+  }
+]

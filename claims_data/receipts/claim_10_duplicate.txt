@@ -1,0 +1,16 @@
+TAX INVOICE / RECEIPT
+Vendor: Main Street Cafe
+Receipt ID: REC-2026-1008-01
+Date: 2026-10-08
+Customer: Priya Sharma
+
+Items:
+1. Gourmet Sandwich - INR 350.00
+2. Artisanal Salad - INR 300.00
+3. Cold Brew Coffee - INR 200.00
+
+Subtotal: INR 850.00
+Taxes: Included
+Total Paid: INR 850.00
+Payment Method: Corporate Debit Card ending in 4102
+Status: Paid

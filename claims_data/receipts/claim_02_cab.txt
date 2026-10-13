@@ -1,0 +1,12 @@
+UBER TRIP RECEIPT
+Vendor: Uber India Systems Pvt Ltd
+Receipt ID: REC-UBR-20261003
+Trip ID: UBR-948192
+Date: 2026-10-03
+Rider: Priya Sharma
+
+Trip Fare (Indiranagar to Whitefield Tech Park): INR 1,120.00
+Tolls & Surcharges: INR 80.00
+Total Amount: INR 1,200.00
+Payment Method: UPI / Credit Card
+Status: Completed & Paid

@@ -1,0 +1,65 @@
+[
+  {
+    "category": "Meals",
+    "amount_min": 0,
+    "amount_max": 1500,
+    "approver_role": "AUTO_APPROVE",
+    "clause": "P2"
+  },
+  {
+    "category": "Meals",
+    "amount_min": 1500.01,
+    "amount_max": null,
+    "approver_role": "MANAGER",
+    "clause": "P2"
+  },
+  {
+    "category": "Cab",
+    "amount_min": 0,
+    "amount_max": 3000,
+    "approver_role": "AUTO_APPROVE",
+    "clause": "P3"
+  },
+  {
+    "category": "Flight",
+    "amount_min": 0,
+    "amount_max": null,
+    "approver_role": "MANAGER",
+    "clause": "P4"
+  },
+  {
+    "category": "Lodging",
+    "amount_min": 0,
+    "amount_max": 6000,
+    "approver_role": "AUTO_APPROVE",
+    "clause": "P5"
+  },
+  {
+    "category": "Software",
+    "amount_min": 0,
+    "amount_max": 5000,
+    "approver_role": "MANAGER",
+    "clause": "P6"
+  },
+  {
+    "category": "Software",
+    "amount_min": 5000.01,
+    "amount_max": null,
+    "approver_role": "IT_HEAD",
+    "clause": "P6"
+  },
+  {
+    "category": "Client entertainment",
+    "amount_min": 0,
+    "amount_max": null,
+    "approver_role": "MANAGER",
+    "clause": "P7"
+  },
+  {
+    "category": "*",
+    "amount_min": 10000.01,
+    "amount_max": null,
+    "approver_role": "FINANCE_DIRECTOR",
+    "clause": "P10"
+  }
+]

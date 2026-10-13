@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Panel{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>System Administration</h2>
+    <p style="color: var(--text-muted); margin-top: 0.5rem;">
+        Confidential administrative controls and system maintenance.
+    </p>
+
+    <div class="alert alert-error" style="margin-top: 1rem;">
+        RESTRICTED AREA: Only users with <code>is_admin = True</code> may view this page.
+    </div>
+
+    <table style="margin-top: 1rem;">
+        <tr>
+            <th>Setting</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Audit Logging</td>
+            <td>Active (Cryptographic Chain)</td>
+        </tr>
+        <tr>
+            <td>Policy Enforcement</td>
+            <td>Strict</td>
+        </tr>
+    </table>
+</div>
+{% endblock %}

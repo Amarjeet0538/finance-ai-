@@ -1,0 +1,29 @@
+{
+  "Priya Sharma": {
+    "employee_id": "EMP-1042",
+    "email": "priya.sharma@centralign.com",
+    "department": "Engineering",
+    "cost_center": "CC-42",
+    "manager": "Rahul Mehta",
+    "manager_email": "rahul.mehta@centralign.com",
+    "title": "Senior Solutions Architect"
+  },
+  "Rahul Mehta": {
+    "employee_id": "EMP-0810",
+    "email": "rahul.mehta@centralign.com",
+    "department": "Engineering",
+    "cost_center": "CC-40",
+    "manager": "Ananya Roy",
+    "manager_email": "ananya.roy@centralign.com",
+    "title": "Engineering Director"
+  },
+  "Vikram Nair": {
+    "employee_id": "EMP-1102",
+    "email": "vikram.nair@centralign.com",
+    "department": "Information Technology",
+    "cost_center": "CC-10",
+    "manager": "Ananya Roy",
+    "manager_email": "ananya.roy@centralign.com",
+    "title": "Head of IT Infrastructure"
+  }
+}

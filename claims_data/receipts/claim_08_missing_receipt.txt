@@ -1,0 +1,10 @@
+EXPENSE DECLARATION MEMO
+Vendor: Tech Supply Hub
+Date: 2026-09-03
+Employee: Priya Sharma
+Item: USB-C Multiport Display Hub & Adapters
+Declared Amount: INR 1,800.00
+
+Note from employee:
+"Lost original physical receipt counter receipt during commute. Submitting credit card bank statement line item as proof of payment. Official vendor tax invoice / receipt number is not available."
+Verification Status: Missing official receipt document

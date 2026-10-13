@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+
+{% block title %}Claim Details{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 700px; margin: 1rem auto;">
+    <div class="alert alert-success" id="success-banner">
+        <strong>Claim Filed Successfully!</strong> Record ID: #{{ claim.id }}
+    </div>
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <h2>Claim #{{ claim.id }}</h2>
+        <span style="background-color: #1e3a8a; color: #93c5fd; padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.85rem; font-weight: 600;">
+            {{ claim.status }}
+        </span>
+    </div>
+
+    <table id="claim-details-table">
+        <tr>
+            <th>Employee</th>
+            <td>{{ claim.employee }}</td>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <td>{{ claim.date }}</td>
+        </tr>
+        <tr>
+            <th>Category</th>
+            <td>{{ claim.category }}</td>
+        </tr>
+        <tr>
+            <th>Amount</th>
+            <td><strong>₹{{ "%.2f"|format(claim.amount_inr) }}</strong> {{ claim.currency }}</td>
+        </tr>
+        <tr>
+            <th>Vendor</th>
+            <td>{{ claim.vendor }}</td>
+        </tr>
+        <tr>
+            <th>Cost Center</th>
+            <td>{{ claim.cost_center }}</td>
+        </tr>
+        <tr>
+            <th>Receipt ID</th>
+            <td>{{ claim.receipt_id or 'N/A' }}</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>{{ claim.description or 'None provided' }}</td>
+        </tr>
+        <tr>
+            <th>Submitted At</th>
+            <td>{{ claim.created_at.strftime('%Y-%m-%d %H:%M:%S UTC') }}</td>
+        </tr>
+    </table>
+
+    <div style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+        <a href="/claims/new" class="btn">File Another Claim</a>
+        <a href="/claims" class="btn" style="background-color: var(--border-color);">Back to Claims List</a>
+    </div>
+</div>
+{% endblock %}

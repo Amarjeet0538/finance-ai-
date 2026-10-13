@@ -1,0 +1,14 @@
+TAX INVOICE
+Vendor: JetBrains s.r.o.
+Receipt ID: REC-JB-20260908
+Invoice Date: 2026-09-08
+Customer: Priya Sharma (Centralign Inc)
+Product: All Products Pack Individual Subscription - Annual Renewal
+
+Item Details:
+- JetBrains All Products Pack (1-year license): INR 6,101.69
+- Integrated Goods and Services Tax (18%): INR 1,098.31
+Total Amount: INR 7,200.00
+Payment Method: Corporate Visa
+Payment Status: Paid in Full
+IT Department Verification Required: Yes (for software > ₹5,000)

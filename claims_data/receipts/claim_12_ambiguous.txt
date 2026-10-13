@@ -1,0 +1,18 @@
+DINING INVOICE & RECEIPT
+Vendor: The Grand Pavilion
+Receipt ID: REC-TGP-20260824
+Date: 2026-08-24
+Host: Priya Sharma
+Purpose: team lunch with client — 4 attendees, client: Acme Corp
+Attendees: Priya Sharma, Rahul Mehta, Sarah Jenkins (Acme Corp), Dave Miller (Acme Corp)
+
+Course Details:
+1. Business Lunch Course x 4 - INR 2,400.00
+2. Fresh Lime Soda & Sparkling Water - INR 400.00
+
+Subtotal: INR 2,800.00
+Taxes & Service: Included
+Total Amount Paid: INR 2,800.00
+Payment Method: Corporate Amex ending in 1009
+Classification: Client entertainment meeting
+Status: Paid

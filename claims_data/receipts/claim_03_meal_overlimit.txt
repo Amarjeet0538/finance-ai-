@@ -1,0 +1,16 @@
+RESTAURANT INVOICE
+Vendor: Royal Spice Bistro
+Receipt ID: REC-RSB-20260928
+Date: 2026-09-28
+Guest: Priya Sharma
+Table: 14
+
+Items:
+1. Executive Royal Thali - INR 1,500.00
+2. Assorted Starters - INR 600.00
+
+Subtotal: INR 2,100.00
+GST (5%): Included
+Total Bill: INR 2,100.00
+Payment Method: Card
+Status: Settled

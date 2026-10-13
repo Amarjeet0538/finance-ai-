@@ -1,0 +1,134 @@
+[
+  {
+    "claim_id": "1",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 850.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Main Street Cafe",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Within P2 meal allowance limit (₹1,500) and valid receipt attached."
+  },
+  {
+    "claim_id": "2",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 1200.0,
+    "expected_category": "Cab",
+    "expected_vendor": "Uber India",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Within P3 ground transportation limit (₹3,000) and valid receipt attached."
+  },
+  {
+    "claim_id": "3",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 2100.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Royal Spice Bistro",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "Exceeds daily meal limit of ₹1,500 per clause P2."
+  },
+  {
+    "claim_id": "4",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 18500.0,
+    "expected_category": "Flight",
+    "expected_vendor": "IndiGo Airlines",
+    "expected_status": "PENDING",
+    "expected_receipt_required": true,
+    "reason": "S1 happy path scope processes ALLOW claims only; requires approval in S2."
+  },
+  {
+    "claim_id": "5",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 18500.0,
+    "expected_category": "Flight",
+    "expected_vendor": "Air India",
+    "expected_status": "PENDING",
+    "expected_receipt_required": true,
+    "reason": "S1 happy path scope processes ALLOW claims only; unapproved flight."
+  },
+  {
+    "claim_id": "6",
+    "employee": "Priya Sharma",
+    "expected_filed": true,
+    "expected_amount_inr": 5500.0,
+    "expected_category": "Lodging",
+    "expected_vendor": "Lemon Tree Hotel",
+    "expected_status": "SUBMITTED",
+    "expected_receipt_required": true,
+    "reason": "Within P5 lodging limit (₹6,000) and under P10 threshold (₹10,000)."
+  },
+  {
+    "claim_id": "7",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 7200.0,
+    "expected_category": "Software",
+    "expected_vendor": "JetBrains",
+    "expected_status": "PENDING",
+    "expected_receipt_required": true,
+    "reason": "S1 happy path scope processes ALLOW claims only; requires IT approval."
+  },
+  {
+    "claim_id": "8",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 1800.0,
+    "expected_category": "Hardware",
+    "expected_vendor": "Tech Supply Hub",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "Missing valid tax receipt per clause P1."
+  },
+  {
+    "claim_id": "9",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 3000.0,
+    "expected_category": "Office",
+    "expected_vendor": "Urban Coworking",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "Stale claim exceeding 90-day submission window per clause P8."
+  },
+  {
+    "claim_id": "10",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 850.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Main Street Cafe",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "Duplicate claim submission matching claim 1 per clause P11."
+  },
+  {
+    "claim_id": "11",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 1300.0,
+    "expected_category": "Meals",
+    "expected_vendor": "Downtown Grill & Bar",
+    "expected_status": "REJECTED",
+    "expected_receipt_required": true,
+    "reason": "Non-reimbursable alcohol beverage line items detected per clause P9."
+  },
+  {
+    "claim_id": "12",
+    "employee": "Priya Sharma",
+    "expected_filed": false,
+    "expected_amount_inr": 2800.0,
+    "expected_category": "Client entertainment",
+    "expected_vendor": "The Grand Pavilion",
+    "expected_status": "PENDING",
+    "expected_receipt_required": true,
+    "reason": "S1 happy path scope processes ALLOW claims only; requires approval in S2."
+  }
+]
